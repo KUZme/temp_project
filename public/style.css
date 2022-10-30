@@ -1,0 +1,57 @@
+/*
+     General styles
+*/
+
+body {
+
+}
+.d-flex {
+    display: flex;  
+  }
+
+  /*
+    Styles
+*/
+.bg {
+    position: absolute;
+    top: o px;
+    left: 0;
+    z-index: -1;
+    width: 100%
+    filter:blur (3px) grayscale (30%);
+    
+}
+.main-offer {
+    justify-content: center;
+}
+.header-section {
+    background: url(img/bg.jpg) 100% / cover;
+}
+.header-logo-img {
+    width: 36px;
+    height: 36px;
+}
+
+.offer-image {
+    width: auto;
+    height: 200px;
+}
+.offer-title {
+    color: aliceblue;
+}
+.header-navigation {
+    padding: 20px;
+    justify-content: space-between;
+}
+.headers-buttons-list{
+    display: flex;
+    list-style-type: none;
+}
+.nav-item {
+    padding: right 10px; ;
+}
+.nav-link {
+    text-decoration: none !important;
+    color: white;
+}
+
